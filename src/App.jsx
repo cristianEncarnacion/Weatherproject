@@ -155,7 +155,7 @@ function App() {
               {weatherData && weatherData.wind && (
                 <div className="bg-white shadow-md rounded-lg p-4 flex gap-x-3 items-center justify-center w-[300px]">
                   <img
-                    src="s/iconos/viento.png"
+                    src="/iconos/viento.png"
                     alt="icono-viento"
                     className="w-12 h-12"
                   />
