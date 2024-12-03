@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Button from "./components/Button";
 import Input from "./components/Input";
+import "./index.css";
 
 function App() {
   const [value, setValue] = useState("");
@@ -48,7 +49,7 @@ function App() {
   return (
     <>
       <main className="flex flex-col min-h-screen">
-        <div className="flex flex-col flex-grow">
+        <div className="transition-weather flex flex-col flex-grow">
           <div className="flex justify-center items-center flex-col mt-6 box-border">
             <div>
               <h1 className="mb-4 font-bold text-3xl">WeatherToday</h1>
